@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+</head>
+
+<body>
+	<h1>REGISTRATION FORM</h1>
+	<form name="registerForm">
+		<div>
+			<label for="firstName">First Name:</label>
+			<input type="text" name="firstName" id="firstName" placeholder="Enter your first name" required />
+		</div>
+        <div>
+			<label for="lastName">Last Name:</label>
+			<input type="text" name="lastName" id="lastName" placeholder="Enter your last name" required />
+		</div>
+        <div>
+			<label for="e-mail">E-mail:</label>
+			<input type="email" id="e-mail" placeholder="Enter your Email id" pattern=".+@gmail.com" size="30" required />
+		</div>
+        <div>
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" placeholder="Enter the password" pattern=".{10,}" required title="Enter atleast 10 characters" />
+        </div>
+        <div>
+			<label for="phoneNumber">Phone Number:</label>
+			<input type="text" id="phoneNumber" placeholder="Enter phone*" maxlength="10" pattern=".{10,}" required title="9 characters length" />
+		</div>
+        <div>
+			<label for="dateOfBirth">DOB:</label>
+			<input type="date" id="dob" required />
+		</div>
+        <div>
+            <label for="search">Search</label>
+            <input type="search" name="" id="search" placeholder="Type here to search">
+            <button type="submit">Search</button>
+        </div>
+		<div>
+			<label for="country">Country:</label>
+			<input type="text" id="country" />
+		</div>
+        <div>
+			Select Course:
+			<select type="text" name="Subject">
+				<option>BBSCIT</option>
+				<option>MSCIT</option>
+				<option>MCA</option>
+				<option>MBA</option>
+			</select>
+        </div>
+        <div>
+			Select your favourite movies:
+		
+			<input type="checkbox" id="Movie1" name="Movie1" value="Interstellar" />
+			<label>Interstellar</label><br>
+			<input type="checkbox" id="Movie2" name="Movie2" value="Arrival" />
+			<label>Arrival</label><br>
+			<input type="checkbox" id="Movie3" name="Movie3" value="oppenheimer" />
+			<label>oppenheimer </label><br>
+		</div>
+		<div>
+			What is your gender?
+		
+			<input type="radio" name="media" value="newspaper" />
+			<label>Male</label><br>
+			<input type="radio" name="media" value="recommend" />
+			<label>Female</label><br><br>
+		<input type="submit" value="Submit" name="submit" />
+		<input type="reset" value="Reset" name="reset" />
+    </div>
+	</form>
+</body>
+
+</html>
