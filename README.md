@@ -1,7 +1,7 @@
 # aditya-training-1
 
 # list of extensions needs to be installed in vs code
-<p><span>&bull;</span><span>live server</span></p>
+<p><span>&bull;&nbsp;</span><span>live server</span></p>
 <p><span>></span><span>nunjucksr</span></p>
 <p><span>></span><span>npm intellisense</span></p>
 <p><span>></span><span>stylelint</span></p>

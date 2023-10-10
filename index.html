@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuda</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <!-- Module (1/8) -->
 
-    <header>
+    <header class="d-flex-column header-container">
         <!-- navigation bar start -->
-        <section>  
-            <nav>
-                <span>My Portfolio</span>>
+            <nav class="d-flex-column nav-container d-flex-row-M">
+                <input type="checkbox">
+                <div class="hamburger-container">
+                    <i class="fa-solid fa-bars" style="color: #000000;"></i>
+                </div>
+                <span class="main-logo">My Portfolio</span>
                 <ul>
                     <li><a href="#" target="_blank">HOME</a></li>
                     <li><a href="#" target="_blank">ABOUT</a></li>
@@ -26,25 +29,24 @@
                     <li><a href="#" target="_blank">CONTACT</a></li>
                 </ul>
             </nav>
-        </section>
         <!-- navigation bar end -->
-     
-        <h1>Hi there! We are the new kids on the block 
-            and we build awesome websites and mobile apps.</h1>
-        <button type="button">WORK WITH US!</button>
+        <div class="d-flex-column center heading-container">
+            <h1>Hi there! this is my portfolio, please check it out!</h1>
+            <button class="btn-main" type="button">WORK WITH US!</button>
+        </div>
     </header>
 
     <!-- Module (2/8) -->
-<main>
-    <section>
+<main class="">
+    <section class="d-flex-column main1-container px-20">
         <h2>SERVICES WE PROVIDE</h2>
         <p>We are working with both individuals and businesses from all over the globe 
             to create awesome websites and applications.
         </p>
         <!-- 4 column sub-module -->
-        <div>
-            <div>
-                <img src="images/flag.png" alt="Flag">
+        <div class="d-flex-column d-flex-row-M">
+            <div class="row">
+                <img src="assets/images/icon_flag.png" alt="Flag">
                 <div>
                     <h3>BRANDING</h3>
                     <p>Lorem ipsum dolor sit amet, 
@@ -53,21 +55,21 @@
                 </div>
             </div>
             <div>
-                <img src="images/pencil.png" alt="Pencil">
+                <img src="assets/images/icon_pencil.png" alt="Pencil">
                 <div>
                     <h3>DESIGN</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                     </p>
                 </div>
             </div><div>
-                <img src="images/settings.png" alt="Settings">
+                <img src="assets/images/icon_settings.png" alt="Settings">
                 <div>
                     <h3>DEVELOPMENT</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.
                     </p>
                 </div>
             </div><div>
-                <img src="images/rocket.png" alt="Rocket">
+                <img src="assets/images/icon_rocket.png" alt="Rocket">
                 <div>
                     <h3>ROCKET SCIENCE</h3>
                     <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.
