@@ -16,6 +16,15 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
 /* ###########################   Utilities ########################### */
 
 .d-flex-row{
@@ -143,9 +152,6 @@ header nav ul li a {
 
 .main1-container {
     background-color: #17c2a4;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     color: #ffffff;
 }
 
@@ -168,9 +174,6 @@ header nav ul li a {
 
 .main2-container {
     background-color: #e7f1f8;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     color: #282728;
 }
 
@@ -193,9 +196,6 @@ header nav ul li a {
 
 .main3-container {
     background-color: #ffffff;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     color: #282728;
 }
 
@@ -218,9 +218,6 @@ header nav ul li a {
 
 .main4-container {
     background-color: #ffdd99;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     color: #282728;
 }
 
@@ -248,9 +245,6 @@ header nav ul li a {
 
 .main5-container {
     background-color: #d74680;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     color: #ffffff;
 }
 
@@ -279,9 +273,6 @@ header nav ul li a {
 .main6-container {
    
     background-color: #3c5499;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     color: #ffffff;
 }
 
