@@ -1,0 +1,15 @@
+{
+  "name": "aditya-training-1",
+  "version": "1.0.0",
+  "description": "# list of extensions needs to be installed in vs code <p><span>&bull;&nbsp;</span><span>live server</span></p> <p><span>></span><span>nunjucksr</span></p> <p><span>></span><span>npm intellisense</span></p> <p><span>></span><span>stylelint</span></p> <p><span>></span><span>auto rename tag</span></p> <p><span>></span><span>highlight matching tag</span></p> <p><span>></span><span>tailwind css intellisense</span></p> <p><span>></span><span>live server</span></p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.4"
+  }
+}
